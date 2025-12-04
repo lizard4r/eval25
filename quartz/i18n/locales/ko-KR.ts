@@ -50,7 +50,7 @@ export default {
       linkToOriginal: "원본 링크",
     },
     search: {
-      title: "검색",
+      title: "검색창",
       searchBarPlaceholder: "검색어를 입력하세요",
     },
     tableOfContents: {
