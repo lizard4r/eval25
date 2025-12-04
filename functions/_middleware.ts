@@ -1,5 +1,5 @@
-const BASIC_USER = "admin";
-const BASIC_PASS = "eval2025";
+const BASIC_USER = "kofic";
+const BASIC_PASS = "koficeval25";
 
 async function errorHandling(context: EventContext<unknown, string, unknown>) {
   try {
