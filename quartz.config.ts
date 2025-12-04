@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "25년 경영평가 작성 도구",
+    pageTitle: "25년 경평 도구",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
