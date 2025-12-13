@@ -1,17 +1,20 @@
 @use "./base.scss";
 
-// 제목 강조 스타일 - 왼쪽 색상 바
+// 제목 강조 스타일 - 배경색 블록
 h1 {
-  border-left: 4px solid var(--secondary);
-  padding-left: 0.5rem;
+  background-color: var(--highlight);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
 }
 
 h2 {
-  border-left: 3px solid var(--tertiary);
-  padding-left: 0.5rem;
+  background-color: var(--lightgray);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
 
 h3 {
-  border-left: 2px solid var(--gray);
-  padding-left: 0.4rem;
+  background-color: var(--lightgray);
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
 }
