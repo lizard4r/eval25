@@ -1,3 +1,17 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// 제목 강조 스타일 - 왼쪽 색상 바
+h1 {
+  border-left: 4px solid var(--secondary);
+  padding-left: 0.5rem;
+}
+
+h2 {
+  border-left: 3px solid var(--tertiary);
+  padding-left: 0.5rem;
+}
+
+h3 {
+  border-left: 2px solid var(--gray);
+  padding-left: 0.4rem;
+}
